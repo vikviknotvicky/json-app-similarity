@@ -1,4 +1,10 @@
-# Generate additional App JSON files
+A command-line Python program that returns a best-match given a new JSON object.
+
+# Data
+
+The originally provided data contains two applications - CRM App and Inventory App. The file is stored in `apps/original-apps.json`
+
+### Generate additional App JSON files
 
 Use ChatGPT to generate additional App JSONs.
 
@@ -16,7 +22,7 @@ Response:
 \- Added a new field "Lead Score" in the Leads table and "Competitors" in the Opportunities table.\
 \- New tables like "Conversions" were added to introduce a fresh perspective while retaining the structure.
 
-# Generate a new application JSON
+### Generate a new application JSON
 
 Use ChatGPT to generate a new app JSON.
 
@@ -37,4 +43,4 @@ Key Changes Made:\
 
 # Similarity Metrics
 
-**Token-based similarity**
+Given a new application schema, the model calculates the **cosine distance** between all fields in the provided schema and all fields in each of the existing applications. The model selects as a *best-match* the application with the highest average cosine similarity.
