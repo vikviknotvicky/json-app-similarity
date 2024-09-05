@@ -5,16 +5,17 @@ from src.logger import logger
 
 
 def read_json_app(input_json):
-    """_summary_
+    """Load an application JSON file. 
 
     Args:
-        input_json (_type_): _description_
+        input_json (pathname): Text or binary file containing JSON document
 
     Raises:
-        FileNotFoundError: _description_
+        FileNotFoundError: Input file is missing
+        JSONDecodeError: Input file is not a valid JSON
 
     Returns:
-        _type_: _description_
+        dict: Application(s) schema
     """
     logger.info(f"Reading the {input_json}...")
 
@@ -31,4 +32,8 @@ def read_json_app(input_json):
     except FileNotFoundError as e:
         logger.error(f'File {input_json} not found!')
         sys.exit(1)
+    except json.JSONDecodeError as e:
+        logger.error(f'File {input_json} is not a valid JSON!')
+        sys.exit(1)
+
 

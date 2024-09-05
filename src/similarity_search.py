@@ -10,11 +10,12 @@ from src.utils import preprocess_app_json, cosine_similarity
 
 
 def find_best_match(input_json, apps_json_path=None) -> str:
-    """_summary_
+    """Find the best-match application from a set predefined applications
 
     Args:
-        input_json (_type_): _description_
-        apps_json_path (_type_, optional): _description_. Defaults to None.
+        input_json (pathname): Text or binary file containing input application JSON
+        apps_json_path (pathname, optional): Text or binary file containing existing app JSONs.
+            Defaults to None. If None, return the default schema listed in config.ini
 
     Returns:
         str: Index of the best-match application

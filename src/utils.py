@@ -4,14 +4,14 @@ from numpy.linalg import norm
 
 
 def preprocess_app_json(model, app_json) -> list:
-    """_summary_
+    """Preprocess and encode application schemas
 
     Args:
-        model (_type_): _description_
-        app_json (_type_): _description_
+        model : SentenceTransformer model used to map text to embeddings
+        app_json (dict): Application schema
 
     Returns:
-        list: _description_
+        list: List of transformed and encoded values for every application
     """
     encoded_app_matrix = []
     for app in app_json.keys():
