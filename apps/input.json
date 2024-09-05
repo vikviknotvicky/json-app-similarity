@@ -1,0 +1,227 @@
+{
+  "AppID1": {
+    "ai_dict": {
+      "name": "Enhanced CRM App",
+      "description": "Advanced Customer Relationship Management.",
+      "tables": [
+        {
+          "name": "Clients",
+          "recordNoun": "Client",
+          "fields": [
+            {
+              "name": "Client Name",
+              "type": "TX"
+            },
+            {
+              "name": "Address",
+              "type": "AD"
+            },
+            {
+              "name": "Website",
+              "type": "LK"
+            },
+            {
+              "name": "Contact Number",
+              "type": "PH"
+            },
+            {
+              "name": "Sector",
+              "type": "TC",
+              "choices": [
+                "Healthcare",
+                "Finance",
+                "Technology",
+                "Education",
+                "Retail"
+              ]
+            },
+            {
+              "name": "Client Status",
+              "type": "TC",
+              "choices": [
+                "Prospective",
+                "Active",
+                "Inactive",
+                "Lost"
+              ]
+            },
+            {
+              "name": "Source of Lead",
+              "type": "TC",
+              "choices": [
+                "Social Media",
+                "Direct Visit",
+                "Referral",
+                "Web Search"
+              ]
+            },
+            {
+              "name": "Assigned To",
+              "type": "US"
+            },
+            {
+              "name": "Email",
+              "type": "EM"
+            },
+            {
+              "name": "# of Opportunities",
+              "type": "NM",
+              "summary": {
+                "aggregation": "count",
+                "childForeignKeyField": "Related Client",
+                "childTable": "Opportunities"
+              }
+            },
+            {
+              "name": "Last Contact Date",
+              "type": "DT",
+              "summary": {
+                "aggregation": "maximum",
+                "childField": "Contact Date",
+                "childForeignKeyField": "Related Client",
+                "childTable": "Interactions"
+              }
+            },
+            {
+              "name": "# of Interactions",
+              "type": "NM",
+              "summary": {
+                "aggregation": "count",
+                "childForeignKeyField": "Related Client",
+                "childTable": "Interactions"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Contacts",
+          "recordNoun": "Contact",
+          "fields": [
+            {
+              "name": "Full Name",
+              "type": "TX",
+              "formula": "[First Name]&\" \"&[Last Name]"
+            },
+            {
+              "name": "Position",
+              "type": "TX"
+            },
+            {
+              "name": "Phone",
+              "type": "PH"
+            },
+            {
+              "name": "Email",
+              "type": "EM"
+            },
+            {
+              "name": "Address",
+              "type": "LD"
+            },
+            {
+              "name": "Is Primary Contact?",
+              "type": "CB"
+            },
+            {
+              "name": "First Name",
+              "type": "TX"
+            },
+            {
+              "name": "Last Name",
+              "type": "TX"
+            },
+            {
+              "name": "Related Client",
+              "type": "FK",
+              "parent": "Clients",
+              "proxyDisplayField": "Client Name"
+            }
+          ]
+        },
+        {
+          "name": "Opportunities",
+          "recordNoun": "Opportunity",
+          "fields": [
+            {
+              "name": "Opportunity Name",
+              "type": "TX"
+            },
+            {
+              "name": "Value",
+              "type": "NM"
+            },
+            {
+              "name": "Stage",
+              "type": "TC",
+              "choices": [
+                "Qualification",
+                "Proposal",
+                "Closed Won",
+                "Closed Lost"
+              ]
+            },
+            {
+              "name": "Close Date",
+              "type": "DT"
+            },
+            {
+              "name": "Created By",
+              "type": "US"
+            },
+            {
+              "name": "Notes",
+              "type": "LD"
+            },
+            {
+              "name": "Related Client",
+              "type": "FK",
+              "parent": "Clients",
+              "proxyDisplayField": "Client Name"
+            }
+          ]
+        },
+        {
+          "name": "Interactions",
+          "recordNoun": "Interaction",
+          "fields": [
+            {
+              "name": "Interaction Type",
+              "type": "TC",
+              "choices": [
+                "Call",
+                "Email",
+                "Meeting",
+                "Follow-up"
+              ]
+            },
+            {
+              "name": "Interaction Date",
+              "type": "DT"
+            },
+            {
+              "name": "Duration (mins)",
+              "type": "DU"
+            },
+            {
+              "name": "Notes",
+              "type": "LD"
+            },
+            {
+              "name": "Related Contact",
+              "type": "FK",
+              "parent": "Contacts",
+              "proxyDisplayField": "Full Name"
+            },
+            {
+              "name": "Related Opportunity",
+              "type": "FK",
+              "parent": "Opportunities",
+              "proxyDisplayField": "Opportunity Name"
+            }
+          ]
+        }
+      ]
+    },
+    "search_value": "Clients (Client Name, Address, Website, Contact Number, Sector, Client Status, Source of Lead, Assigned To, Email, # of Opportunities, Last Contact Date, # of Interactions), Contacts (Full Name, Position, Phone, Email, Address, Is Primary Contact?, First Name, Last Name, Related Client), Opportunities (Opportunity Name, Value, Stage, Close Date, Created By, Notes, Related Client), Interactions (Interaction Type, Interaction Date, Duration (mins), Notes, Related Contact, Related Opportunity)"
+  }
+}

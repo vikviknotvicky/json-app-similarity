@@ -1,0 +1,1105 @@
+{
+    "AppID1": {
+      "ai_dict": {
+        "name": "CRM App",
+        "description": "Customer Relationship Management.",
+        "tables": [
+          {
+            "name": "Companies",
+            "recordNoun": "Company",
+            "fields": [
+              {
+                "name": "Company Name",
+                "type": "TX"
+              },
+              {
+                "name": "Address",
+                "type": "AD"
+              },
+              {
+                "name": "Web",
+                "type": "LK"
+              },
+              {
+                "name": "Phone",
+                "type": "PH"
+              },
+              {
+                "name": "Industry",
+                "type": "TC",
+                "choices": [
+                  "Machine Tools & Accessories",
+                  "Information & Delivery Services",
+                  "Business Services",
+                  "Telecom Services - Domestic",
+                  "Auto Parts Stores",
+                  "Drug Related Products",
+                  "Specialized Health Services",
+                  "Air Services, Other",
+                  "Synthetics",
+                  "Trucking",
+                  "Specialty Retail, Other",
+                  "Industrial Equipment & Components",
+                  "Insurance Brokers",
+                  "Oil & Gas Drilling & Exploration",
+                  "Lumber, Wood Production",
+                  "Electric Utilities",
+                  "Gas Utilities",
+                  "Asset Management",
+                  "Beverages - Soft Drinks",
+                  "Air Delivery & Freight Services",
+                  "Appliances",
+                  "Biotechnology",
+                  "Toys & Games",
+                  "Electronic Equipment",
+                  "Basic Materials Wholesale",
+                  "Medical Instruments & Supplies",
+                  "Beverages - Brewers",
+                  "Farm & Construction Machinery",
+                  "Copper",
+                  "Shipping",
+                  "Restaurants",
+                  "Security & Protection Services",
+                  "Business Equipment"
+                ]
+              },
+              {
+                "name": "Lead Status",
+                "type": "TC",
+                "choices": [
+                  "O1 - New Lead",
+                  "O2 - Qualified",
+                  "O3 - Prospect",
+                  "O4 - Proposal",
+                  "O5 - Verbal",
+                  "C - Dead",
+                  "C - Lost",
+                  "C - Past Customer",
+                  "A - Active Customer"
+                ]
+              },
+              {
+                "name": "Lead Source",
+                "type": "TC",
+                "choices": [
+                  "Direct Mail",
+                  "Google",
+                  "Referral",
+                  "Website",
+                  "Yahoo"
+                ]
+              },
+              {
+                "name": "Assigned To",
+                "type": "US"
+              },
+              {
+                "name": "Fax",
+                "type": "PH"
+              },
+              {
+                "name": "Time Zone",
+                "type": "TX",
+                "formula": "Case(Upper([State]),\"...\", \"Unknown\")"
+              },
+              {
+                "name": "# of Contacts",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "count",
+                  "childForeignKeyField": "Related Company",
+                  "childTable": "Contacts"
+                }
+              },
+              {
+                "name": "# of Activities",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "# of Activities",
+                  "childForeignKeyField": "Related Company",
+                  "childTable": "Contacts"
+                }
+              },
+              {
+                "name": "Most Recent Activity Date",
+                "type": "DT",
+                "summary": {
+                  "aggregation": "maximum",
+                  "childField": "Most Recent Activity Date",
+                  "childForeignKeyField": "Related Company",
+                  "childTable": "Contacts"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Contacts",
+            "recordNoun": "Contact",
+            "fields": [
+              {
+                "name": "Contact Full Name",
+                "type": "TX",
+                "formula": "[First Name]&\" \"&[Last Name]"
+              },
+              {
+                "name": "Title / Job Function",
+                "type": "TX"
+              },
+              {
+                "name": "Phone",
+                "type": "PH"
+              },
+              {
+                "name": "Fax",
+                "type": "PH"
+              },
+              {
+                "name": "Mobile",
+                "type": "PH"
+              },
+              {
+                "name": "Email",
+                "type": "EM"
+              },
+              {
+                "name": "Address",
+                "type": "LD"
+              },
+              {
+                "name": "Different Contact Address?",
+                "type": "CB"
+              },
+              {
+                "name": "First Name",
+                "type": "TX"
+              },
+              {
+                "name": "Last Name",
+                "type": "TX"
+              },
+              {
+                "name": "Related Company",
+                "type": "FK",
+                "parent": "Companies",
+                "proxyDisplayField": "Company Name"
+              },
+              {
+                "name": "Company Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "Company Name"
+                }
+              },
+              {
+                "name": "Company Phone",
+                "type": "PH",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "Phone"
+                }
+              },
+              {
+                "name": "Company State",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "State/Region"
+                }
+              },
+              {
+                "name": "Company Website",
+                "type": "LK",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "Web"
+                }
+              },
+              {
+                "name": "Assigned Rep",
+                "type": "US",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "Assigned To"
+                }
+              },
+              {
+                "name": "Company - Address",
+                "type": "AD",
+                "lookup": {
+                  "foreignKeyField": "Related Company",
+                  "parentTable": "Companies",
+                  "parentField": "Address"
+                }
+              },
+              {
+                "name": "Most Recent Activity Date",
+                "type": "DT",
+                "summary": {
+                  "aggregation": "maximum",
+                  "childField": "Activity Date",
+                  "filterCriteria": [
+                    {
+                      "field": "Activity Type",
+                      "operator": "does_not_equal",
+                      "value": "Schedule"
+                    }
+                  ],
+                  "filterCriteriaLogicalOperator": "and",
+                  "childForeignKeyField": "Related Contact",
+                  "childTable": "Activities"
+                }
+              },
+              {
+                "name": "# of Activities",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "count",
+                  "childForeignKeyField": "Related Contact",
+                  "childTable": "Activities"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Activities",
+            "recordNoun": "Activity",
+            "fields": [
+              {
+                "name": "Activity Type",
+                "type": "TC",
+                "choices": [
+                  "Outbound Phone Call",
+                  "Inbound Phone Call",
+                  "Left Voicemail",
+                  "Email Sent",
+                  "Email Received",
+                  "Live Meeting Notes",
+                  "Schedule",
+                  "Research",
+                  "Just Notes"
+                ]
+              },
+              {
+                "name": "Activity Date",
+                "type": "DT"
+              },
+              {
+                "name": "Duration (mins)",
+                "type": "DU"
+              },
+              {
+                "name": "Created By",
+                "type": "US"
+              },
+              {
+                "name": "Notes",
+                "type": "LD"
+              },
+              {
+                "name": "Activity",
+                "type": "TX",
+                "formula": "[Contact Full Name]&\": \"&[Activity Date]&\" - \"&[Activity Type]"
+              },
+              {
+                "name": "iCalendar Notes",
+                "type": "TX",
+                "formula": "If([Activity Type]=\"Schedule\",\"\\n\"&\"Scheduled Activity with: \"&[Scheduled For]&\"\\n\"&\"Scheduled for: \"&[Activity Date]&\" at \"&[Scheduled Start Time]&\" until \"&[Scheduled End Time]&\".\"&\"\\n\"&\"\\n\"&\"Contact Info: \"&\"\\n\"&\"Phone: \"&[Customer Phone]&\"\\n\"&\"Email: \"&[Customer Email]&\"\\n\"&\"\\n\"&\"------------------------------------------------------------------------\"&\"\\n\"&\"Notes:\"&\"\\n\"&\"\\n\"&[Notes],\"\")"
+              },
+              {
+                "name": "Meeting Info / Location",
+                "type": "TX"
+              },
+              {
+                "name": "Related Company",
+                "type": "NM"
+              },
+              {
+                "name": "Related Contact",
+                "type": "FK",
+                "parent": "Contacts",
+                "proxyDisplayField": "Contact Full Name"
+              },
+              {
+                "name": "Schedule Status",
+                "type": "TC",
+                "choices": [
+                  "Scheduled",
+                  "Completed",
+                  "Cancelled",
+                  "Rep Missed",
+                  "Prospect Missed"
+                ]
+              },
+              {
+                "name": "Scheduled Activity Date",
+                "type": "DT"
+              },
+              {
+                "name": "Scheduled Activity Subject",
+                "type": "TX"
+              },
+              {
+                "name": "Scheduled End Date / Time",
+                "type": "TM",
+                "formula": "ToTimestamp([Scheduled Activity Date], [Scheduled End Time])"
+              },
+              {
+                "name": "Scheduled End Time",
+                "type": "TD",
+                "formula": "[Scheduled Start Time]+[Duration (mins)]"
+              },
+              {
+                "name": "Scheduled For",
+                "type": "US"
+              },
+              {
+                "name": "Scheduled Start Date / Time",
+                "type": "TM",
+                "formula": "ToTimestamp([Scheduled Activity Date], [Scheduled Start Time])"
+              },
+              {
+                "name": "Scheduled Start Time",
+                "type": "TD"
+              },
+              {
+                "name": "Attempt Successful?",
+                "type": "CB"
+              },
+              {
+                "name": "Contact Full Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Contact Full Name"
+                }
+              },
+              {
+                "name": "Company Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Company Name"
+                }
+              },
+              {
+                "name": "Contact - Email",
+                "type": "EM",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Email"
+                }
+              },
+              {
+                "name": "Contact - Mobile",
+                "type": "PH",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Mobile"
+                }
+              },
+              {
+                "name": "Contact - Phone",
+                "type": "PH",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Phone"
+                }
+              },
+              {
+                "name": "Contact - Address",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Contact",
+                  "parentTable": "Contacts",
+                  "parentField": "Address"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Companies (Company Name, Address, Web, Phone, Industry, Lead Status, Lead Source, Assigned To, Fax, Time Zone, # of Contacts, # of Activities, Most Recent Activity Date), Contacts (Contact Full Name, Title / Job Function, Phone, Fax, Mobile, Email, Address, Different Contact Address?, First Name, Last Name, Company Name, Company Phone, Company State, Company Website, Assigned Rep, Company - Address, Most Recent Activity Date, # of Activities), Activities (Activity Type, Activity Date, Duration (mins), Created By, Notes, Activity, iCalendar Notes, Meeting Info / Location, Related Company, Schedule Status, Scheduled Activity Date, Scheduled Activity Subject, Scheduled End Date / Time, Scheduled End Time, Scheduled For, Scheduled Start Date / Time, Scheduled Start Time, Attempt Successful?, Contact Full Name, Company Name)"
+    },
+   
+    "AppID2": {
+      "ai_dict": {
+        "name": "Inventory App",
+        "description": "",
+        "tables": [
+          {
+            "name": "Projects",
+            "recordNoun": "Project",
+            "fields": [
+              {
+                "name": "Project Name",
+                "type": "TX"
+              },
+              {
+                "name": "Project Manager",
+                "type": "US"
+              },
+              {
+                "name": "Priority",
+                "type": "TC",
+                "choices": ["High", "Medium", "Low"]
+              },
+              {
+                "name": "Status",
+                "type": "TC",
+                "choices": ["In-Progress", "On Hold"]
+              },
+              {
+                "name": "Description",
+                "type": "TX"
+              },
+              {
+                "name": "Start Date",
+                "type": "DT"
+              },
+              {
+                "name": "End Date",
+                "type": "DT"
+              },
+              {
+                "name": "Est End Date",
+                "type": "DT"
+              },
+              {
+                "name": "Est Start Date",
+                "type": "DT"
+              },
+              {
+                "name": "Total Cost of Inventory",
+                "type": "CA",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Cost of Inventory",
+                  "childForeignKeyField": "Related Project",
+                  "childTable": "Inventory Usage"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Inventory",
+            "recordNoun": "Inventory",
+            "fields": [
+              {
+                "name": "SKU",
+                "type": "TX"
+              },
+              {
+                "name": "Product Name",
+                "type": "TX"
+              },
+              {
+                "name": "Product Type",
+                "type": "TC",
+                "choices": ["Sprockets", "Widgets"]
+              },
+              {
+                "name": "Product Description",
+                "type": "LD"
+              },
+              {
+                "name": "Shipping Weight (lbs.)",
+                "type": "NM"
+              },
+              {
+                "name": "Avg Inventory Cost",
+                "type": "CA",
+                "formula": "[Total Cost Added]/[Total Quantity Added]"
+              },
+              {
+                "name": "Total Quantity Added",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Quantity",
+                  "filterCriteria": [
+                    {
+                      "field": "Purchase Order - Status",
+                      "operator": "equals",
+                      "value": "Completed"
+                    }
+                  ],
+                  "filterCriteriaLogicalOperator": "and",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Purchase Order Line Items"
+                }
+              },
+              {
+                "name": "Total Quantity In Transit",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Quantity",
+                  "filterCriteria": [
+                    {
+                      "field": "Purchase Order - Status",
+                      "operator": "equals",
+                      "value": "Shipped"
+                    }
+                  ],
+                  "filterCriteriaLogicalOperator": "and",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Purchase Order Line Items"
+                }
+              },
+              {
+                "name": "Total Cost Added",
+                "type": "CA",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Cost",
+                  "filterCriteria": [
+                    {
+                      "field": "Purchase Order - Status",
+                      "operator": "equals",
+                      "value": "Completed"
+                    }
+                  ],
+                  "filterCriteriaLogicalOperator": "and",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Purchase Order Line Items"
+                }
+              },
+              {
+                "name": "Total Cost In Transit",
+                "type": "CA",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Cost",
+                  "filterCriteria": [
+                    {
+                      "field": "Purchase Order - Status",
+                      "operator": "equals",
+                      "value": "Shipped"
+                    }
+                  ],
+                  "filterCriteriaLogicalOperator": "and",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Purchase Order Line Items"
+                }
+              },
+              {
+                "name": "Total Quantity Used",
+                "type": "NM",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Quantity",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Inventory Usage"
+                }
+              },
+              {
+                "name": "Total Cost of Inventory Used",
+                "type": "CA",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Cost of Inventory",
+                  "childForeignKeyField": "Related Inventory",
+                  "childTable": "Inventory Usage"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Purchase Orders",
+            "recordNoun": "Purchase Order",
+            "fields": [
+              {
+                "name": "Vendor",
+                "type": "TX"
+              },
+              {
+                "name": "Status",
+                "type": "TC",
+                "choices": [
+                  "Pending",
+                  "Submitted",
+                  "Shipped",
+                  "Completed",
+                  "Cancelled"
+                ]
+              },
+              {
+                "name": "Order Date",
+                "type": "DT"
+              },
+              {
+                "name": "Arrival Date",
+                "type": "DT"
+              },
+              {
+                "name": "Total Cost",
+                "type": "CA",
+                "summary": {
+                  "aggregation": "sum",
+                  "childField": "Cost",
+                  "childForeignKeyField": "Related Purchase Order",
+                  "childTable": "Purchase Order Line Items"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Purchase Order Line Items",
+            "recordNoun": "Purchase Order Line Item",
+            "fields": [
+              {
+                "name": "Related Purchase Order",
+                "type": "FK",
+                "parent": "Purchase Orders"
+              },
+              {
+                "name": "Quantity",
+                "type": "NM"
+              },
+              {
+                "name": "Price/Unit",
+                "type": "CA"
+              },
+              {
+                "name": "Cost",
+                "type": "CA",
+                "formula": "[Quantity]*[Price/Unit]"
+              },
+              {
+                "name": "Related Inventory",
+                "type": "FK",
+                "parent": "Inventory",
+                "proxyDisplayField": "Inventory - SKU"
+              },
+              {
+                "name": "Purchase Order - Vendor",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Purchase Order",
+                  "parentTable": "Purchase Orders",
+                  "parentField": "Vendor"
+                }
+              },
+              {
+                "name": "Purchase Order - Status",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Purchase Order",
+                  "parentTable": "Purchase Orders",
+                  "parentField": "Status"
+                }
+              },
+              {
+                "name": "Inventory - SKU",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "SKU"
+                }
+              },
+              {
+                "name": "Inventory - Product Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "Product Name"
+                }
+              },
+              {
+                "name": "Inventory - Product Description",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "Product Description"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Inventory Usage",
+            "recordNoun": "Inventory Usage",
+            "fields": [
+              {
+                "name": "Quantity",
+                "type": "NM"
+              },
+              {
+                "name": "Cost of Inventory",
+                "type": "CA",
+                "formula": "[Quantity] * [Avg Inventory Cost]"
+              },
+              {
+                "name": "Related Inventory",
+                "type": "FK",
+                "parent": "Inventory",
+                "proxyDisplayField": "Inventory - SKU"
+              },
+              {
+                "name": "Related Project",
+                "type": "FK",
+                "parent": "Projects",
+                "proxyDisplayField": "Project Name"
+              },
+              {
+                "name": "Project Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Project",
+                  "parentTable": "Projects",
+                  "parentField": "Project Name"
+                }
+              },
+              {
+                "name": "Inventory - SKU",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "SKU"
+                }
+              },
+              {
+                "name": "Inventory - Product Name",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "Product Name"
+                }
+              },
+              {
+                "name": "Inventory - Product Description",
+                "type": "TX",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "Product Description"
+                }
+              },
+              {
+                "name": "Avg Inventory Cost",
+                "type": "CA",
+                "lookup": {
+                  "foreignKeyField": "Related Inventory",
+                  "parentTable": "Inventory",
+                  "parentField": "Avg Inventory Cost"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Projects (Project Name, Project Manager, Priority, Status, Description, Start Date, End Date, Est End Date, Est Start Date, Total Cost of Inventory), Inventory (SKU, Product Name, Product Type, Product Description, Shipping Weight (lbs.), Avg Inventory Cost, Total Quantity Added, Total Quantity In Transit, Total Cost Added, Total Cost In Transit, Total Quantity Used, Total Cost of Inventory Used), Purchase Orders (Vendor, Status, Order Date, Arrival Date, Total Cost), Purchase Order Line Items (Quantity, Price/Unit, Cost, Purchase Order - Vendor, Purchase Order - Status, Inventory - SKU, Inventory - Product Name, Inventory - Product Description), Inventory Usage (Quantity, Cost of Inventory, Project Name, Inventory - SKU, Inventory - Product Name, Inventory - Product Description, Avg Inventory Cost)"
+    },
+    
+    "AppID3": {
+      "ai_dict": {
+        "name": "Project Management App",
+        "description": "Manage projects, tasks, and deadlines.",
+        "tables": [
+          {
+            "name": "Projects",
+            "recordNoun": "Project",
+            "fields": [
+              {
+                "name": "Project Name",
+                "type": "TX"
+              },
+              {
+                "name": "Start Date",
+                "type": "DT"
+              },
+              {
+                "name": "End Date",
+                "type": "DT"
+              },
+              {
+                "name": "Assigned Team",
+                "type": "US"
+              },
+              {
+                "name": "Status",
+                "type": "TC",
+                "choices": ["In Progress", "Completed", "On Hold"]
+              }
+            ]
+          },
+          {
+            "name": "Tasks",
+            "recordNoun": "Task",
+            "fields": [
+              {
+                "name": "Task Name",
+                "type": "TX"
+              },
+              {
+                "name": "Due Date",
+                "type": "DT"
+              },
+              {
+                "name": "Assigned To",
+                "type": "US"
+              },
+              {
+                "name": "Priority",
+                "type": "TC",
+                "choices": ["High", "Medium", "Low"]
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Projects (Project Name, Start Date, End Date, Assigned Team, Status), Tasks (Task Name, Due Date, Assigned To, Priority)"
+    },
+  
+    "AppID4": {
+      "ai_dict": {
+        "name": "Customer Support App",
+        "description": "Track customer inquiries and support requests.",
+        "tables": [
+          {
+            "name": "Tickets",
+            "recordNoun": "Ticket",
+            "fields": [
+              {
+                "name": "Ticket ID",
+                "type": "TX"
+              },
+              {
+                "name": "Customer Name",
+                "type": "TX"
+              },
+              {
+                "name": "Issue Description",
+                "type": "LD"
+              },
+              {
+                "name": "Status",
+                "type": "TC",
+                "choices": ["Open", "In Progress", "Resolved", "Closed"]
+              }
+            ]
+          },
+          {
+            "name": "Responses",
+            "recordNoun": "Response",
+            "fields": [
+              {
+                "name": "Response Text",
+                "type": "LD"
+              },
+              {
+                "name": "Date Responded",
+                "type": "DT"
+              },
+              {
+                "name": "Responded By",
+                "type": "US"
+              },
+              {
+                "name": "Related Ticket",
+                "type": "FK",
+                "parent": "Tickets"
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Tickets (Ticket ID, Customer Name, Issue Description, Status), Responses (Response Text, Date Responded, Responded By)"
+    },
+  
+    "AppID5": {
+      "ai_dict": {
+        "name": "Inventory Tracking App",
+        "description": "Manage and track inventory levels and orders.",
+        "tables": [
+          {
+            "name": "Products",
+            "recordNoun": "Product",
+            "fields": [
+              {
+                "name": "Product Name",
+                "type": "TX"
+              },
+              {
+                "name": "SKU",
+                "type": "TX"
+              },
+              {
+                "name": "Quantity In Stock",
+                "type": "NM"
+              },
+              {
+                "name": "Reorder Level",
+                "type": "NM"
+              }
+            ]
+          },
+          {
+            "name": "Orders",
+            "recordNoun": "Order",
+            "fields": [
+              {
+                "name": "Order Number",
+                "type": "TX"
+              },
+              {
+                "name": "Order Date",
+                "type": "DT"
+              },
+              {
+                "name": "Vendor",
+                "type": "TX"
+              },
+              {
+                "name": "Total Amount",
+                "type": "CA"
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Products (Product Name, SKU, Quantity In Stock, Reorder Level), Orders (Order Number, Order Date, Vendor, Total Amount)"
+    },
+
+    "AppID6": {
+      "ai_dict": {
+        "name": "Sales Tracking App",
+        "description": "Track sales leads, opportunities, and conversions.",
+        "tables": [
+          {
+            "name": "Leads",
+            "recordNoun": "Lead",
+            "fields": [
+              {
+                "name": "Lead Name",
+                "type": "TX"
+              },
+              {
+                "name": "Contact Email",
+                "type": "EM"
+              },
+              {
+                "name": "Contact Phone",
+                "type": "PH"
+              },
+              {
+                "name": "Lead Source",
+                "type": "TC",
+                "choices": ["Web", "Referral", "Event", "Cold Call"]
+              },
+              {
+                "name": "Status",
+                "type": "TC",
+                "choices": ["New", "Contacted", "Qualified", "Lost", "Converted"]
+              },
+              {
+                "name": "Preferred Contact Method",
+                "type": "TC",
+                "choices": ["Email", "Phone", "In-person"]
+              },
+              {
+                "name": "Assigned To",
+                "type": "US",
+                "proxyDisplayField": "User Name"
+              },
+              {
+                "name": "Lead Score",
+                "type": "NM"
+              },
+              {
+                "name": "Last Contacted",
+                "type": "DT"
+              },
+              {
+                "name": "Notes",
+                "type": "LD"
+              }
+            ]
+          },
+          {
+            "name": "Opportunities",
+            "recordNoun": "Opportunity",
+            "fields": [
+              {
+                "name": "Opportunity Name",
+                "type": "TX"
+              },
+              {
+                "name": "Estimated Value",
+                "type": "CA"
+              },
+              {
+                "name": "Close Date",
+                "type": "DT"
+              },
+              {
+                "name": "Stage",
+                "type": "TC",
+                "choices": ["Prospecting", "Proposal", "Negotiation", "Closed Won", "Closed Lost"]
+              },
+              {
+                "name": "Related Lead",
+                "type": "FK",
+                "parent": "Leads",
+                "proxyDisplayField": "Lead Name"
+              },
+              {
+                "name": "Competitors",
+                "type": "TX"
+              }
+            ]
+          },
+          {
+            "name": "Conversions",
+            "recordNoun": "Conversion",
+            "fields": [
+              {
+                "name": "Conversion ID",
+                "type": "TX"
+              },
+              {
+                "name": "Customer Name",
+                "type": "TX"
+              },
+              {
+                "name": "Date Converted",
+                "type": "DT"
+              },
+              {
+                "name": "Total Sales Amount",
+                "type": "CA"
+              },
+              {
+                "name": "Lead Source",
+                "type": "TC",
+                "choices": ["Web", "Referral", "Advertising"]
+              },
+              {
+                "name": "Sales Rep",
+                "type": "US",
+                "proxyDisplayField": "User Name"
+              }
+            ]
+          }
+        ]
+      },
+      "search_value": "Leads (Lead Name, Contact Email, Contact Phone, Lead Source, Status, Preferred Contact Method, Assigned To, Lead Score, Last Contacted, Notes), Opportunities (Opportunity Name, Estimated Value, Close Date, Stage, Related Lead, Competitors), Conversions (Conversion ID, Customer Name, Date Converted, Total Sales Amount, Lead Source, Sales Rep)"
+    }    
+  }
+  

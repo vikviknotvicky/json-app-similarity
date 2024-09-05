@@ -1,0 +1,1203 @@
+2024-09-05 08:51:05,233 [INFO] Find the best matching app for apps/input.test
+2024-09-05 08:51:05,233 [INFO] Reading the new app JSON...
+2024-09-05 08:51:05,233 [WARNING] Input JSON app file not found!
+2024-09-05 08:51:37,807 [INFO] Find the best matching app for apps/input.test
+2024-09-05 08:51:37,807 [INFO] Reading the new app JSON...
+2024-09-05 08:51:37,807 [WARNING] Input JSON app file not found!
+2024-09-05 08:52:18,244 [INFO] Find the best matching app for apps/input.test
+2024-09-05 08:52:18,244 [INFO] Reading the new app JSON...
+2024-09-05 08:52:18,244 [WARNING] Input JSON app file not found!
+2024-09-05 08:53:03,307 [INFO] Find the best matching app for apps/input.json
+2024-09-05 08:53:03,307 [INFO] Reading the new app JSON...
+2024-09-05 08:53:03,307 [INFO] The new app JSON is loaded
+2024-09-05 08:53:03,308 [INFO] Loading existing application JSONs...
+2024-09-05 08:53:03,309 [INFO] Exiting application JSONs are loaded! Number of applications is 2
+2024-09-05 08:53:03,332 [INFO] Use pytorch device_name: mps
+2024-09-05 08:53:03,332 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 08:53:03,351 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 08:53:03,749 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 08:53:04,139 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 08:53:04,278 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 08:53:04,660 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 08:53:04,800 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 08:53:04,937 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 08:53:05,799 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 08:53:05,983 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 08:53:06,150 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:03:03,594 [INFO] Find the best matching app for apps/input.test
+2024-09-05 09:03:03,594 [INFO] Reading the new app JSON...
+2024-09-05 09:03:03,594 [WARNING] Input JSON app file not found!
+2024-09-05 09:04:17,851 [INFO] Find the best matching app for apps/input.test
+2024-09-05 09:04:17,851 [INFO] Reading the new app JSON...
+2024-09-05 09:04:17,851 [ERROR] Input JSON app file not found!
+2024-09-05 09:04:41,771 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:04:41,771 [INFO] Reading the new app JSON...
+2024-09-05 09:04:41,772 [INFO] The new app JSON is loaded
+2024-09-05 09:04:41,772 [INFO] Loading existing application JSONs...
+2024-09-05 09:04:41,773 [INFO] Exiting application JSONs are loaded! Number of applications is 2
+2024-09-05 09:04:41,792 [INFO] Use pytorch device_name: mps
+2024-09-05 09:04:41,792 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:04:41,829 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:04:42,325 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:04:42,734 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:04:42,883 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:04:43,349 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:04:43,511 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:04:43,649 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:04:43,962 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:04:44,152 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:04:44,555 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:14:26,062 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:14:26,062 [INFO] Reading the new app JSON...
+2024-09-05 09:14:26,063 [INFO] The new app JSON is loaded
+2024-09-05 09:14:26,064 [INFO] Loading existing application JSONs...
+2024-09-05 09:14:26,064 [INFO] Exiting application JSONs are loaded! Number of applications is 2
+2024-09-05 09:14:26,084 [INFO] Use pytorch device_name: mps
+2024-09-05 09:14:26,085 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:14:26,114 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:14:26,517 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:14:26,653 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:14:27,029 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:14:27,166 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:14:27,301 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:14:27,438 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:14:27,751 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:14:28,258 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:14:28,416 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:14:54,246 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:14:54,246 [INFO] Reading the new app JSON...
+2024-09-05 09:14:54,246 [INFO] The new app JSON is loaded
+2024-09-05 09:14:54,246 [INFO] Loading existing application JSONs...
+2024-09-05 09:14:54,247 [INFO] Exiting application JSONs are loaded! Number of applications is 2
+2024-09-05 09:16:00,453 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:16:00,453 [INFO] Reading the new app JSON...
+2024-09-05 09:16:00,454 [INFO] The new app JSON is loaded
+2024-09-05 09:16:00,454 [INFO] Loading existing application JSONs...
+2024-09-05 09:16:00,454 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:17:09,262 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:17:09,262 [INFO] Reading the new app JSON...
+2024-09-05 09:17:09,262 [INFO] The new app JSON is loaded
+2024-09-05 09:17:09,263 [INFO] Loading existing application JSONs...
+2024-09-05 09:17:09,263 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:17:09,285 [INFO] Use pytorch device_name: mps
+2024-09-05 09:17:09,285 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:17:09,308 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:17:09,741 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:17:09,898 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:17:10,033 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:17:10,458 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:17:10,868 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:17:11,004 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:17:11,321 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:17:11,500 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:17:11,659 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:18:12,220 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:18:12,220 [INFO] Reading the new app JSON...
+2024-09-05 09:18:12,220 [INFO] The new app JSON is loaded
+2024-09-05 09:18:12,220 [INFO] Loading existing application JSONs...
+2024-09-05 09:18:12,221 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:18:12,242 [INFO] Use pytorch device_name: mps
+2024-09-05 09:18:12,242 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:18:12,246 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:18:12,635 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:18:13,024 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:18:13,163 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:18:13,309 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:18:13,684 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:18:13,841 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:18:14,155 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:18:14,337 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:18:14,495 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:18:37,897 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:18:37,897 [INFO] Reading the new app JSON...
+2024-09-05 09:18:37,897 [INFO] The new app JSON is loaded
+2024-09-05 09:18:37,897 [INFO] Loading existing application JSONs...
+2024-09-05 09:18:37,897 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:18:37,918 [INFO] Use pytorch device_name: mps
+2024-09-05 09:18:37,918 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:18:37,976 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:18:38,420 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:18:38,829 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:18:38,966 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:18:39,101 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:18:39,263 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:18:39,406 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:18:39,716 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:18:40,160 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:18:40,318 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:22:49,217 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:22:49,217 [INFO] Reading the new app JSON...
+2024-09-05 09:22:49,218 [INFO] The new app JSON is loaded
+2024-09-05 09:22:49,218 [INFO] Loading existing application JSONs...
+2024-09-05 09:22:49,218 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:22:49,240 [INFO] Use pytorch device_name: mps
+2024-09-05 09:22:49,240 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:22:49,281 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:22:49,437 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:22:49,577 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:22:49,713 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:22:49,850 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:22:49,997 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:22:50,134 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:22:50,481 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:22:50,666 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:22:50,827 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:23:12,190 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:23:12,191 [INFO] Reading the new app JSON...
+2024-09-05 09:23:12,191 [INFO] The new app JSON is loaded
+2024-09-05 09:23:12,191 [INFO] Loading existing application JSONs...
+2024-09-05 09:23:12,191 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:23:12,213 [INFO] Use pytorch device_name: mps
+2024-09-05 09:23:12,213 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:23:12,218 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:23:12,364 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:23:12,851 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:23:13,259 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:23:13,669 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:23:13,810 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:23:13,949 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:23:14,261 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:23:14,442 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:23:14,620 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:23:42,723 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:23:42,723 [INFO] Reading the new app JSON...
+2024-09-05 09:23:42,723 [INFO] The new app JSON is loaded
+2024-09-05 09:23:42,724 [INFO] Loading existing application JSONs...
+2024-09-05 09:23:42,724 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:23:42,746 [INFO] Use pytorch device_name: mps
+2024-09-05 09:23:42,746 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:23:42,751 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:23:43,263 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:23:43,673 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:23:44,085 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:23:44,224 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:23:44,362 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:23:44,798 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:23:45,149 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:23:45,341 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:23:45,519 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:23:49,021 [INFO] Best matching app --> {'name': 'CRM App', 'description': 'Customer Relationship Management.', 'tables': [{'name': 'Companies', 'recordNoun': 'Company', 'fields': [{'name': 'Company Name', 'type': 'TX'}, {'name': 'Address', 'type': 'AD'}, {'name': 'Web', 'type': 'LK'}, {'name': 'Phone', 'type': 'PH'}, {'name': 'Industry', 'type': 'TC', 'choices': ['Machine Tools & Accessories', 'Information & Delivery Services', 'Business Services', 'Telecom Services - Domestic', 'Auto Parts Stores', 'Drug Related Products', 'Specialized Health Services', 'Air Services, Other', 'Synthetics', 'Trucking', 'Specialty Retail, Other', 'Industrial Equipment & Components', 'Insurance Brokers', 'Oil & Gas Drilling & Exploration', 'Lumber, Wood Production', 'Electric Utilities', 'Gas Utilities', 'Asset Management', 'Beverages - Soft Drinks', 'Air Delivery & Freight Services', 'Appliances', 'Biotechnology', 'Toys & Games', 'Electronic Equipment', 'Basic Materials Wholesale', 'Medical Instruments & Supplies', 'Beverages - Brewers', 'Farm & Construction Machinery', 'Copper', 'Shipping', 'Restaurants', 'Security & Protection Services', 'Business Equipment']}, {'name': 'Lead Status', 'type': 'TC', 'choices': ['O1 - New Lead', 'O2 - Qualified', 'O3 - Prospect', 'O4 - Proposal', 'O5 - Verbal', 'C - Dead', 'C - Lost', 'C - Past Customer', 'A - Active Customer']}, {'name': 'Lead Source', 'type': 'TC', 'choices': ['Direct Mail', 'Google', 'Referral', 'Website', 'Yahoo']}, {'name': 'Assigned To', 'type': 'US'}, {'name': 'Fax', 'type': 'PH'}, {'name': 'Time Zone', 'type': 'TX', 'formula': 'Case(Upper([State]),\r\n"AL", "Central", "ALABAMA", "Central", \r\n"AK", "Alaska", "ALASKA", "Alaska", \r\n"AZ", "Mountain", "ARIZONA", "Mountain", \r\n"AR", "Central", "ARKANSAS", "Central", \r\n"CA", "Pacific", "CALIFORNIA", "Pacific", \r\n"CO", "Mountain", "COLORADO", "Mountain", \r\n"CT", "Eastern", "CONNECTICUT", "Eastern", \r\n"DE", "Eastern", "DELAWARE", "Eastern", \r\n"DC", "Eastern", "DISTRICT OF COLUMBIA", "Eastern", \r\n"DC", "Eastern", "WASHINGTON DC", "Eastern", \r\n"FL", "Eastern", "FLORIDA", "Eastern", \r\n"GA", "Eastern", "GEORGIA", "Eastern", \r\n"HI", "Hawaii", "HAWAII", "Hawaii", \r\n"ID", "Pacific", "IDAHO", "Pacific", \r\n"IL", "Central", "ILLINOIS", "Central", \r\n"IN", "Eastern", "INDIANA", "Eastern", \r\n"IA", "Central", "IOWA", "Central", \r\n"KS", "Central", "KANSAS", "Central", \r\n"KY", "Eastern", "KENTUCKY", "Eastern", \r\n"LA", "Central", "LOUISIANA", "Central", \r\n"ME", "Eastern", "MAINE", "Eastern", \r\n"MD", "Eastern", "MARYLAND", "Eastern", \r\n"MA", "Eastern", "MASSACHUSETTS", "Eastern", \r\n"MI", "Eastern", "MICHIGAN", "Eastern", \r\n"MN", "Central", "MINNESOTA", "Central", \r\n"MS", "Central", "MISSISSIPPI", "Central", \r\n"MO", "Central", "MISSOURI", "Central", \r\n"MT", "Mountain", "MONTANA", "Mountain", \r\n"NE", "Central", "NEBRASKA", "Central", \r\n"NV", "Pacific", "NEVADA", "Pacific", \r\n"NH", "Eastern", "NEW HAMPSHIRE", "Eastern", \r\n"NJ", "Eastern", "NEW JERSEY", "Eastern", \r\n"NM", "Mountain", "NEW MEXICO", "Mountain", \r\n"NY", "Eastern", "NEW YORK", "Eastern", \r\n"NC", "Eastern", "NORTH CAROLINA", "Eastern", \r\n"ND", "Central", "NORTH DAKOTA", "Central", \r\n"OH", "Eastern", "OHIO", "Eastern", \r\n"OK", "Central", "OKLAHOMA", "Central", \r\n"OR", "Pacific", "OREGON", "Pacific", \r\n"PA", "Eastern", "PENNSYLVANIA", "Eastern", \r\n"PR", "DT", "PUERTO RICO", "DT", \r\n"RI", "Eastern", "RHODE ISLAND", "Eastern", \r\n"SC", "Eastern", "SOUTH CAROLINA", "Eastern", \r\n"SD", "Central", "SOUTH DAKOTA", "Central", \r\n"TN", "Eastern", "TENNESSEE", "Eastern", \r\n"TX", "Central", "TEXAS", "Central", \r\n"UT", "Mountain", "UTAH", "Mountain", \r\n"VT", "Eastern", "VERMONT", "Eastern", \r\n"VA", "Eastern", "VIRGINIA", "Eastern", \r\n"WA", "Pacific", "WASHINGTON", "Pacific", \r\n"WV", "Eastern", "WEST VIRGINIA", "Eastern", \r\n"WI", "Central", "WISCONSIN", "Central", \r\n"WY", "Mountain", "WYOMING", "Mountain", \r\n"AB","Mountain","ALBERTA","Mountain",\r\n"BC","Pacific","BRITISH COLUMBIA","Pacific",\r\n"MB","Central","MANITOBA","Central",\r\n"NB","Eastern","NEW BRUNSWICK","Eastern",\r\n"NL","Newfoundland","NEWFOUNDLAND AND LABRADOR","Newfoundland",\r\n"NT","Mountain","NORTHWEST TERRITORIES","Mountain",\r\n"NS","Atlantic","NOVA SCOTIA","Atlantic",\r\n"NU","Eastern","NUNAVUT","Eastern",\r\n"ON","Eastern","ONTARIO","Eastern",\r\n"PE","Newfoundland","PRINCE EDWARD ISLAND","Newfoundland",\r\n"QC","Eastern","QUEBEC","Eastern",\r\n"SK","Central","SASKATCHEWAN","Central",\r\n"YT","Pacific","YUKON","Pacific","Unknown")'}, {'name': '# of Contacts', 'type': 'NM', 'summary': {'aggregation': 'count', 'childForeignKeyField': 'Related Company', 'childTable': 'Contacts'}}, {'name': '# of Activities', 'type': 'NM', 'summary': {'aggregation': 'sum', 'childField': '# of Activities', 'childForeignKeyField': 'Related Company', 'childTable': 'Contacts'}}, {'name': 'Most Recent Activity Date', 'type': 'DT', 'summary': {'aggregation': 'maximum', 'childField': 'Most Recent Activity Date', 'childForeignKeyField': 'Related Company', 'childTable': 'Contacts'}}]}, {'name': 'Contacts', 'recordNoun': 'Contact', 'fields': [{'name': 'Contact Full Name', 'type': 'TX', 'formula': '[First Name]&" "&[Last Name]'}, {'name': 'Title / Job Function', 'type': 'TX'}, {'name': 'Phone', 'type': 'PH'}, {'name': 'Fax', 'type': 'PH'}, {'name': 'Mobile', 'type': 'PH'}, {'name': 'Email', 'type': 'EM'}, {'name': 'Address', 'type': 'LD'}, {'name': 'Different Contact Address?', 'type': 'CB'}, {'name': 'First Name', 'type': 'TX'}, {'name': 'Last Name', 'type': 'TX'}, {'name': 'Related Company', 'type': 'FK', 'parent': 'Companies', 'proxyDisplayField': 'Company Name'}, {'name': 'Company Name', 'type': 'TX', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'Company Name'}}, {'name': 'Company Phone', 'type': 'PH', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'Phone'}}, {'name': 'Company State', 'type': 'TX', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'State/Region'}}, {'name': 'Company Website', 'type': 'LK', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'Web'}}, {'name': 'Assigned Rep', 'type': 'US', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'Assigned To'}}, {'name': 'Company - Address', 'type': 'AD', 'lookup': {'foreignKeyField': 'Related Company', 'parentTable': 'Companies', 'parentField': 'Address'}}, {'name': 'Most Recent Activity Date', 'type': 'DT', 'summary': {'aggregation': 'maximum', 'childField': 'Activity Date', 'filterCriteria': [{'field': 'Activity Type', 'operator': 'does_not_equal', 'value': 'Schedule'}], 'filterCriteriaLogicalOperator': 'and', 'childForeignKeyField': 'Related Contact', 'childTable': 'Activities'}}, {'name': '# of Activities', 'type': 'NM', 'summary': {'aggregation': 'count', 'childForeignKeyField': 'Related Contact', 'childTable': 'Activities'}}]}, {'name': 'Activities', 'recordNoun': 'Activity', 'fields': [{'name': 'Activity Type', 'type': 'TC', 'choices': ['Outbound Phone Call', 'Inbound Phone Call', 'Left Voicemail', 'Email Sent', 'Email Received', 'Live Meeting Notes', 'Schedule', 'Research', 'Just Notes']}, {'name': 'Activity Date', 'type': 'DT'}, {'name': 'Duration (mins)', 'type': 'DU'}, {'name': 'Created By', 'type': 'US'}, {'name': 'Notes', 'type': 'LD'}, {'name': 'Activity', 'type': 'TX', 'formula': '[Contact Full Name]&": "&[Activity Date]&" - "&[Activity Type]'}, {'name': 'iCalendar Notes', 'type': 'TX', 'formula': 'If([Activity Type]="Schedule","\\n"&"Scheduled Activity with: "&[Scheduled For]&"\\n"&\r\n"Scheduled for: "&[Activity Date]&" at "&[Scheduled Start Time]&" until "&[Scheduled End Time]&"."&"\\n"&"\\n"&\r\n"Contact Info: "&"\\n"&\r\n"Phone: "&[Customer Phone]&"\\n"&\r\n"Email: "&[Customer Email]&"\\n"&"\\n"&\r\n"------------------------------------------------------------------------"&"\\n"\r\n&"Notes:"&"\\n"&"\\n"&\r\n[Notes],"")'}, {'name': 'Meeting Info / Location', 'type': 'TX'}, {'name': 'Related Company', 'type': 'NM'}, {'name': 'Related Contact', 'type': 'FK', 'parent': 'Contacts', 'proxyDisplayField': 'Contact Full Name'}, {'name': 'Schedule Status', 'type': 'TC', 'choices': ['Scheduled', 'Completed', 'Cancelled', 'Rep Missed', 'Prospect Missed']}, {'name': 'Scheduled Activity Date', 'type': 'DT'}, {'name': 'Scheduled Activity Subject', 'type': 'TX'}, {'name': 'Scheduled End Date / Time', 'type': 'TM', 'formula': 'ToTimestamp([Scheduled Activity Date], [Scheduled End Time])'}, {'name': 'Scheduled End Time', 'type': 'TD', 'formula': '[Scheduled Start Time]+[Duration (mins)]'}, {'name': 'Scheduled For', 'type': 'US'}, {'name': 'Scheduled Start Date / Time', 'type': 'TM', 'formula': 'ToTimestamp([Scheduled Activity Date], [Scheduled Start Time])'}, {'name': 'Scheduled Start Time', 'type': 'TD'}, {'name': 'Attempt Successful?', 'type': 'CB'}, {'name': 'Contact Full Name', 'type': 'TX', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Contact Full Name'}}, {'name': 'Company Name', 'type': 'TX', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Company Name'}}, {'name': 'Contact - Email', 'type': 'EM', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Email'}}, {'name': 'Contact - Mobile', 'type': 'PH', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Mobile'}}, {'name': 'Contact - Phone', 'type': 'PH', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Phone'}}, {'name': 'Contact - Address', 'type': 'TX', 'lookup': {'foreignKeyField': 'Related Contact', 'parentTable': 'Contacts', 'parentField': 'Address'}}]}]}
+2024-09-05 09:24:04,581 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:24:04,581 [INFO] Reading the new app JSON...
+2024-09-05 09:24:04,582 [INFO] The new app JSON is loaded
+2024-09-05 09:24:04,582 [INFO] Loading existing application JSONs...
+2024-09-05 09:24:04,582 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:24:04,604 [INFO] Use pytorch device_name: mps
+2024-09-05 09:24:04,604 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:24:04,608 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:24:05,019 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:24:05,483 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:24:05,622 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:24:06,059 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:24:06,202 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:24:06,610 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:24:06,983 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:24:07,210 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:24:07,634 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:24:11,181 [INFO] Best matching app --> CRM App
+2024-09-05 09:25:00,893 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:25:00,893 [INFO] Reading the new app JSON...
+2024-09-05 09:25:00,894 [INFO] The new app JSON is loaded
+2024-09-05 09:25:00,894 [INFO] Loading existing application JSONs...
+2024-09-05 09:25:00,894 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:25:00,916 [INFO] Use pytorch device_name: mps
+2024-09-05 09:25:00,916 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:25:00,940 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:25:01,391 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:25:01,527 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:25:01,673 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:25:02,110 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:25:02,251 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:25:02,389 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:25:02,698 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:25:02,878 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:25:03,038 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:25:06,561 [INFO] Best matching app with cosine similarity score = 0.791918933391571 --> CRM App
+2024-09-05 09:25:21,941 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:25:21,941 [INFO] Reading the new app JSON...
+2024-09-05 09:25:21,941 [INFO] The new app JSON is loaded
+2024-09-05 09:25:21,941 [INFO] Loading existing application JSONs...
+2024-09-05 09:25:21,942 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:25:21,964 [INFO] Use pytorch device_name: mps
+2024-09-05 09:25:21,964 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:25:21,969 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:25:22,140 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:25:22,301 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:25:22,440 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:25:22,580 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:25:22,720 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:25:22,859 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:25:23,177 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:25:23,396 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:25:23,820 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:25:27,344 [INFO] Best matching app with cosine similarity score = 0.7919 --> CRM App
+2024-09-05 09:26:50,402 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:26:50,402 [INFO] Reading the new app JSON...
+2024-09-05 09:26:50,402 [INFO] The new app JSON is loaded
+2024-09-05 09:26:50,402 [INFO] Loading existing application JSONs...
+2024-09-05 09:26:50,403 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:26:50,424 [INFO] Use pytorch device_name: mps
+2024-09-05 09:26:50,424 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:26:50,446 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:26:50,858 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:26:51,272 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:26:51,414 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:26:51,882 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:26:52,394 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:26:52,530 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:26:52,839 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:26:53,030 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:26:53,191 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:26:56,738 [INFO] 
+                Best matching app with cosine similarity score = 0.7919 --> 
+                Index(['index', 'ai_dict', 'search_value'], dtype='object') (CRM App)
+                
+2024-09-05 09:27:40,369 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:27:40,369 [INFO] Reading the new app JSON...
+2024-09-05 09:27:40,369 [INFO] The new app JSON is loaded
+2024-09-05 09:27:40,369 [INFO] Loading existing application JSONs...
+2024-09-05 09:27:40,370 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:27:40,391 [INFO] Use pytorch device_name: mps
+2024-09-05 09:27:40,391 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:27:40,395 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:27:40,549 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:27:40,931 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:27:41,070 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:27:41,208 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:27:41,344 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:27:41,488 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:27:42,058 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:27:42,248 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:27:42,405 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:27:45,943 [INFO] 
+                Best matching app with cosine similarity score = 0.7919 --> 
+                AppID1 (CRM App)
+                
+2024-09-05 09:28:05,040 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:28:05,040 [INFO] Reading the new app JSON...
+2024-09-05 09:28:05,040 [INFO] The new app JSON is loaded
+2024-09-05 09:28:05,041 [INFO] Loading existing application JSONs...
+2024-09-05 09:28:05,041 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:28:05,062 [INFO] Use pytorch device_name: mps
+2024-09-05 09:28:05,062 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:28:05,085 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:28:05,233 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:28:05,712 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:28:05,845 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:28:06,326 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:28:06,467 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:28:06,940 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:28:07,297 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:28:07,508 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:28:07,967 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:28:11,491 [INFO] 
+                Best matching app with cosine similarity score = 0.7919 -->                 AppID1 (CRM App)
+                
+2024-09-05 09:42:43,893 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:42:43,893 [INFO] Reading the new app JSON...
+2024-09-05 09:42:43,893 [INFO] The new app JSON is loaded
+2024-09-05 09:42:43,893 [INFO] Loading existing application JSONs...
+2024-09-05 09:42:43,894 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:42:43,914 [INFO] Use pytorch device_name: mps
+2024-09-05 09:42:43,915 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:42:43,937 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:42:44,617 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:42:45,027 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:42:45,162 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:42:45,300 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:42:45,446 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:42:45,584 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:42:45,897 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:42:46,081 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:42:46,563 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:45:49,464 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:45:49,464 [INFO] Reading the new app JSON...
+2024-09-05 09:45:49,464 [INFO] The new app JSON is loaded
+2024-09-05 09:45:49,464 [INFO] Loading existing application JSONs...
+2024-09-05 09:45:49,464 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:45:49,484 [INFO] Use pytorch device_name: mps
+2024-09-05 09:45:49,485 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:45:49,538 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:45:49,689 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:45:49,825 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:45:49,965 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:45:50,101 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:45:50,239 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:45:50,375 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:45:50,698 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:45:50,914 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 09:45:51,198 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 09:46:01,577 [INFO] Find the best matching app for apps/input.json
+2024-09-05 09:46:01,577 [INFO] Reading the new app JSON...
+2024-09-05 09:46:01,578 [INFO] The new app JSON is loaded
+2024-09-05 09:46:01,578 [INFO] Loading existing application JSONs...
+2024-09-05 09:46:01,578 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 09:46:01,599 [INFO] Use pytorch device_name: mps
+2024-09-05 09:46:01,599 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 09:46:01,604 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 09:46:02,043 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:46:02,417 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 09:46:02,862 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 09:46:03,001 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 09:46:03,157 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 09:46:03,293 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 09:46:03,611 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 09:46:03,793 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 09:46:03,973 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 09:46:07,523 [INFO] Best matching app with cosine similarity score = 0.7919 --> AppID1 (CRM App)
+2024-09-05 10:18:08,176 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:18:08,176 [INFO] Reading the new app JSON...
+2024-09-05 10:18:08,176 [INFO] The new app JSON is loaded
+2024-09-05 10:18:08,176 [INFO] Loading existing application JSONs...
+2024-09-05 10:18:08,177 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:18:08,224 [INFO] Process completed!
+2024-09-05 10:19:57,215 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:19:57,215 [INFO] Reading the new app JSON...
+2024-09-05 10:19:57,215 [INFO] The new app JSON is loaded
+2024-09-05 10:19:57,215 [INFO] Loading existing application JSONs...
+2024-09-05 10:19:57,215 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:20:38,687 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:20:38,687 [INFO] Reading the new app JSON...
+2024-09-05 10:20:38,688 [INFO] The new app JSON is loaded
+2024-09-05 10:20:38,688 [INFO] Loading existing application JSONs...
+2024-09-05 10:20:38,688 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:20:38,704 [INFO] Process completed!
+2024-09-05 10:35:29,397 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:35:29,397 [INFO] Reading the new app JSON...
+2024-09-05 10:35:29,397 [INFO] The new app JSON is loaded
+2024-09-05 10:35:29,397 [INFO] Loading existing application JSONs...
+2024-09-05 10:35:29,398 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:35:29,417 [INFO] Use pytorch device_name: mps
+2024-09-05 10:35:29,417 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:35:29,440 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:35:29,591 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:35:29,743 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:35:29,884 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:35:30,023 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:35:30,527 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:35:30,919 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:35:31,238 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:35:31,756 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:35:31,928 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 10:36:12,557 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:36:12,557 [INFO] Reading the new app JSON...
+2024-09-05 10:36:12,557 [INFO] The new app JSON is loaded
+2024-09-05 10:36:12,557 [INFO] Loading existing application JSONs...
+2024-09-05 10:36:12,558 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:36:12,577 [INFO] Use pytorch device_name: mps
+2024-09-05 10:36:12,577 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:36:12,608 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:36:13,021 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:36:13,431 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:36:13,827 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:36:13,976 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:36:14,121 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:36:14,261 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:36:14,677 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:36:14,887 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:36:15,052 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 10:36:50,012 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:36:50,013 [INFO] Reading the new app JSON...
+2024-09-05 10:36:50,013 [INFO] The new app JSON is loaded
+2024-09-05 10:36:50,013 [INFO] Loading existing application JSONs...
+2024-09-05 10:36:50,013 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:36:50,033 [INFO] Use pytorch device_name: mps
+2024-09-05 10:36:50,033 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:36:50,038 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:36:50,445 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:36:50,584 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:36:50,726 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:36:50,870 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:36:51,262 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:36:51,402 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:36:51,959 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:36:52,142 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:36:52,303 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:37:22,172 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:37:22,172 [INFO] Reading the new app JSON...
+2024-09-05 10:37:22,172 [INFO] The new app JSON is loaded
+2024-09-05 10:37:22,172 [INFO] Loading existing application JSONs...
+2024-09-05 10:37:22,173 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:37:22,191 [INFO] Use pytorch device_name: mps
+2024-09-05 10:37:22,191 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:37:22,208 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:37:22,653 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:37:23,044 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:37:23,472 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:37:23,882 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:37:24,024 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:37:24,167 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:37:24,474 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:37:24,658 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:37:24,816 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:38:24,093 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:38:24,094 [INFO] Reading the new app JSON...
+2024-09-05 10:38:24,094 [INFO] The new app JSON is loaded
+2024-09-05 10:38:24,094 [INFO] Loading existing application JSONs...
+2024-09-05 10:38:24,094 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:38:24,114 [INFO] Use pytorch device_name: mps
+2024-09-05 10:38:24,114 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:38:24,120 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:38:24,605 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:38:25,014 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:38:25,424 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:38:25,565 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:38:25,707 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:38:26,137 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:38:26,456 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:38:26,669 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:38:26,841 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:38:28,119 [INFO] Process completed!
+2024-09-05 10:42:10,519 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:42:10,519 [INFO] Reading the new app JSON...
+2024-09-05 10:42:10,519 [INFO] The new app JSON is loaded
+2024-09-05 10:42:10,520 [INFO] Loading existing application JSONs...
+2024-09-05 10:42:10,520 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:42:10,537 [INFO] Use pytorch device_name: mps
+2024-09-05 10:42:10,537 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:42:10,552 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:42:10,707 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:42:10,852 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:42:10,995 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:42:11,137 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:42:11,306 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:42:11,446 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:42:11,757 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:42:11,939 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:42:12,107 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:42:13,381 [INFO] Process completed!
+2024-09-05 10:42:47,313 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:42:47,314 [INFO] Reading the new app JSON...
+2024-09-05 10:42:47,314 [INFO] The new app JSON is loaded
+2024-09-05 10:42:47,314 [INFO] Loading existing application JSONs...
+2024-09-05 10:42:47,315 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:42:47,333 [INFO] Use pytorch device_name: mps
+2024-09-05 10:42:47,333 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:42:47,355 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:42:47,512 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:42:47,703 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:42:47,852 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:42:48,006 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:42:48,148 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:42:48,286 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:42:48,594 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:42:48,776 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:42:48,934 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 10:42:52,516 [INFO] Process completed!
+2024-09-05 10:43:51,843 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:43:51,843 [INFO] Reading the new app JSON...
+2024-09-05 10:43:51,843 [INFO] The new app JSON is loaded
+2024-09-05 10:43:51,843 [INFO] Loading existing application JSONs...
+2024-09-05 10:43:51,844 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:43:51,863 [INFO] Use pytorch device_name: mps
+2024-09-05 10:43:51,863 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:43:51,868 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:43:52,024 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:43:52,166 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:43:52,321 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:43:52,473 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:43:52,614 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:43:52,764 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:43:53,111 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:43:53,718 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:43:54,126 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 10:43:56,933 [INFO] Use pytorch device_name: mps
+2024-09-05 10:43:56,933 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:43:57,089 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:43:57,228 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:43:57,374 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:43:57,516 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:43:57,677 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:43:57,847 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:43:58,221 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:43:58,401 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:43:58,553 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:44:01,208 [INFO] Process completed!
+2024-09-05 10:44:24,205 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:44:24,205 [INFO] Reading the new app JSON...
+2024-09-05 10:44:24,205 [INFO] The new app JSON is loaded
+2024-09-05 10:44:24,205 [INFO] Loading existing application JSONs...
+2024-09-05 10:44:24,206 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:44:24,225 [INFO] Use pytorch device_name: mps
+2024-09-05 10:44:24,226 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:44:24,248 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:44:24,424 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:44:24,571 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:44:24,726 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:44:24,883 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:44:25,028 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:44:25,171 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:44:25,480 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:44:25,669 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:44:25,834 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:44:28,691 [INFO] Use pytorch device_name: mps
+2024-09-05 10:44:28,691 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:44:28,837 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:44:28,979 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:44:29,122 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:44:29,268 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:44:29,409 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:44:29,551 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:44:29,792 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:44:29,975 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:44:30,127 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:49:46,817 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:49:46,818 [INFO] Reading the new app JSON...
+2024-09-05 10:49:46,818 [INFO] The new app JSON is loaded
+2024-09-05 10:49:46,818 [INFO] Loading existing application JSONs...
+2024-09-05 10:49:46,818 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:49:46,836 [INFO] Use pytorch device_name: mps
+2024-09-05 10:49:46,836 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:49:46,864 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:49:47,015 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:49:47,158 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:49:47,302 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:49:47,445 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:49:47,585 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:49:47,731 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:49:48,061 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:49:48,246 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:49:48,410 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:49:51,217 [INFO] Use pytorch device_name: mps
+2024-09-05 10:49:51,217 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:49:51,406 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:49:51,547 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:49:51,687 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:49:51,846 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:49:51,987 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:49:52,128 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:49:52,350 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:49:52,566 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:49:52,741 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:52:25,900 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:52:25,900 [INFO] Reading the new app JSON...
+2024-09-05 10:52:25,900 [INFO] The new app JSON is loaded
+2024-09-05 10:52:25,900 [INFO] Loading existing application JSONs...
+2024-09-05 10:52:25,901 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:52:25,921 [INFO] Use pytorch device_name: mps
+2024-09-05 10:52:25,921 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:52:25,962 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:52:26,428 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:52:26,818 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:52:26,961 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:52:27,101 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:52:27,553 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:52:27,694 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:52:28,271 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:52:28,455 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:52:28,612 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:52:31,472 [INFO] Use pytorch device_name: mps
+2024-09-05 10:52:31,472 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:52:31,618 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:52:31,763 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:52:31,902 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:52:32,043 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:52:32,184 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:52:32,323 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:52:32,555 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:52:32,732 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:52:32,885 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:53:51,363 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:53:51,363 [INFO] Reading the new app JSON...
+2024-09-05 10:53:51,364 [INFO] The new app JSON is loaded
+2024-09-05 10:53:51,364 [INFO] Loading existing application JSONs...
+2024-09-05 10:53:51,364 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:53:51,383 [INFO] Use pytorch device_name: mps
+2024-09-05 10:53:51,383 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:53:51,414 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:53:51,602 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:53:51,749 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:53:51,932 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:53:52,084 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:53:52,226 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:53:52,545 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:53:52,873 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:53:53,110 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:53:53,297 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 10:53:56,147 [INFO] Use pytorch device_name: mps
+2024-09-05 10:53:56,147 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:53:56,294 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:53:56,436 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:53:56,600 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:53:56,740 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:53:56,881 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:53:57,032 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:53:57,259 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:53:57,442 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 10:53:57,600 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 10:59:55,565 [INFO] Find the best matching app for apps/input.json
+2024-09-05 10:59:55,565 [INFO] Reading the new app JSON...
+2024-09-05 10:59:55,565 [INFO] The new app JSON is loaded
+2024-09-05 10:59:55,565 [INFO] Loading existing application JSONs...
+2024-09-05 10:59:55,566 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 10:59:55,585 [INFO] Use pytorch device_name: mps
+2024-09-05 10:59:55,585 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 10:59:55,609 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 10:59:55,758 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:59:55,900 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 10:59:56,286 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 10:59:56,432 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 10:59:56,592 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 10:59:56,736 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 10:59:57,042 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 10:59:57,225 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 10:59:57,387 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:00:00,194 [INFO] Use pytorch device_name: mps
+2024-09-05 11:00:00,194 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:00:00,363 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:00:00,511 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:00:00,662 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:00:00,806 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:00:00,952 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:00:01,092 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:00:01,315 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:00:05,279 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:00:05,426 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:00:55,757 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:00:55,758 [INFO] Reading the new app JSON...
+2024-09-05 11:00:55,758 [INFO] The new app JSON is loaded
+2024-09-05 11:00:55,758 [INFO] Loading existing application JSONs...
+2024-09-05 11:00:55,758 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:00:55,776 [INFO] Use pytorch device_name: mps
+2024-09-05 11:00:55,776 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:00:55,781 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:00:55,937 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:00:56,078 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:00:56,580 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:00:56,723 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:00:56,867 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:00:57,008 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:00:57,339 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:00:57,529 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:00:57,690 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 11:01:00,494 [INFO] Use pytorch device_name: mps
+2024-09-05 11:01:00,494 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:01:00,648 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:00,788 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:01:00,929 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:01:01,097 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:01,238 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:01:01,383 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:01:01,613 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:01:01,799 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 11:01:01,946 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:01:47,486 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:01:47,486 [INFO] Reading the new app JSON...
+2024-09-05 11:01:47,486 [INFO] The new app JSON is loaded
+2024-09-05 11:01:47,487 [INFO] Loading existing application JSONs...
+2024-09-05 11:01:47,487 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:01:47,507 [INFO] Use pytorch device_name: mps
+2024-09-05 11:01:47,507 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:01:47,547 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:01:47,986 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:48,129 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:01:48,287 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:01:48,707 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:49,111 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:01:49,250 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:01:49,567 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:01:49,755 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 11:01:50,240 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 11:01:53,041 [INFO] Use pytorch device_name: mps
+2024-09-05 11:01:53,041 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:01:53,191 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:53,334 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:01:53,476 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:01:53,619 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:01:53,764 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:01:53,905 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:01:54,127 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:01:54,306 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:01:54,454 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:02:30,294 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:02:30,294 [INFO] Reading the new app JSON...
+2024-09-05 11:02:30,295 [INFO] The new app JSON is loaded
+2024-09-05 11:02:30,295 [INFO] Loading existing application JSONs...
+2024-09-05 11:02:30,295 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:02:30,316 [INFO] Use pytorch device_name: mps
+2024-09-05 11:02:30,316 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:02:30,321 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:02:30,726 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:02:31,197 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:02:31,339 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:02:31,480 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:02:31,619 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:02:32,016 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:02:32,631 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:02:32,814 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 11:02:32,975 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:02:35,797 [INFO] Use pytorch device_name: mps
+2024-09-05 11:02:35,797 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:02:35,940 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:02:36,079 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:02:36,219 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:02:36,361 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:02:36,502 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:02:36,643 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:02:36,865 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:02:37,043 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:02:37,189 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:05:46,864 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:05:46,864 [INFO] Reading the new app JSON...
+2024-09-05 11:05:46,864 [INFO] The new app JSON is loaded
+2024-09-05 11:05:46,865 [INFO] Loading existing application JSONs...
+2024-09-05 11:05:46,865 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:05:46,887 [INFO] Use pytorch device_name: mps
+2024-09-05 11:05:46,887 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:05:46,925 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:05:47,330 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:05:47,740 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:05:48,150 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:05:48,304 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:05:48,444 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:05:48,586 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:05:48,901 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:05:49,092 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:05:49,584 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:06:40,478 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:06:40,478 [INFO] Reading the new app JSON...
+2024-09-05 11:06:40,478 [INFO] The new app JSON is loaded
+2024-09-05 11:06:40,479 [INFO] Loading existing application JSONs...
+2024-09-05 11:06:40,479 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:06:40,499 [INFO] Use pytorch device_name: mps
+2024-09-05 11:06:40,499 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:06:40,504 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:06:40,666 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:06:40,808 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:06:40,946 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:06:41,088 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:06:41,227 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:06:41,366 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:06:41,714 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:06:41,911 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 11:06:42,074 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 11:07:12,560 [INFO] Find the best matching app for apps/input.json
+2024-09-05 11:07:12,560 [INFO] Reading the new app JSON...
+2024-09-05 11:07:12,560 [INFO] The new app JSON is loaded
+2024-09-05 11:07:12,560 [INFO] Loading existing application JSONs...
+2024-09-05 11:07:12,561 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 11:07:12,581 [INFO] Use pytorch device_name: mps
+2024-09-05 11:07:12,581 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 11:07:12,602 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 11:07:12,755 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:07:12,897 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 11:07:13,037 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 11:07:13,448 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 11:07:13,591 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 11:07:13,731 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 11:07:14,033 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 11:07:14,214 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 11:07:14,374 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:34:40,811 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:34:40,811 [INFO] Reading the new app JSON...
+2024-09-05 12:34:40,811 [INFO] The new app JSON is loaded
+2024-09-05 12:34:40,812 [INFO] Loading existing application JSONs...
+2024-09-05 12:34:40,812 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:34:40,832 [INFO] Use pytorch device_name: mps
+2024-09-05 12:34:40,832 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:34:40,949 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:34:41,111 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:34:41,254 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:34:41,398 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:34:41,539 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:34:42,033 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:34:42,182 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:34:42,500 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:34:42,700 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:34:42,867 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 12:34:47,201 [INFO] Process completed!
+2024-09-05 12:35:01,519 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:35:01,519 [INFO] Reading the new app JSON...
+2024-09-05 12:35:01,519 [INFO] The new app JSON is loaded
+2024-09-05 12:35:01,519 [INFO] Loading existing application JSONs...
+2024-09-05 12:35:01,519 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:35:01,539 [INFO] Use pytorch device_name: mps
+2024-09-05 12:35:01,540 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:35:01,582 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:35:01,989 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:35:02,411 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:35:02,801 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:35:03,124 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:35:03,265 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:35:03,407 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:35:03,721 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:35:03,909 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 12:35:04,071 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:35:08,359 [INFO] Process completed!
+2024-09-05 12:45:48,141 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:45:48,142 [INFO] Reading the new app JSON...
+2024-09-05 12:45:48,142 [INFO] The new app JSON is loaded
+2024-09-05 12:45:48,142 [INFO] Loading existing application JSONs...
+2024-09-05 12:45:48,142 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:45:48,162 [INFO] Use pytorch device_name: mps
+2024-09-05 12:45:48,162 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:45:48,212 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:45:48,375 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:45:48,524 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:45:48,689 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:45:48,832 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:45:48,994 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:45:49,136 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:45:49,473 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:45:49,667 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 12:45:49,834 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 12:46:20,076 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:46:20,076 [INFO] Reading the new app JSON...
+2024-09-05 12:46:20,076 [INFO] The new app JSON is loaded
+2024-09-05 12:46:20,077 [INFO] Loading existing application JSONs...
+2024-09-05 12:46:20,077 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:46:20,097 [INFO] Use pytorch device_name: mps
+2024-09-05 12:46:20,097 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:46:20,102 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:46:20,595 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:46:20,738 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:46:20,879 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:46:21,312 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:46:21,458 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:46:21,857 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:46:22,174 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:46:22,359 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:46:22,523 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:46:26,871 [INFO] Process completed!
+2024-09-05 12:46:58,191 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:46:58,192 [INFO] Reading the new app JSON...
+2024-09-05 12:46:58,192 [INFO] The new app JSON is loaded
+2024-09-05 12:46:58,192 [INFO] Loading existing application JSONs...
+2024-09-05 12:46:58,193 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:46:58,213 [INFO] Use pytorch device_name: mps
+2024-09-05 12:46:58,213 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:46:58,218 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:46:58,688 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:46:58,830 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:46:58,984 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:46:59,507 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:46:59,654 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:47:00,121 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:47:00,430 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:47:00,736 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 12:47:00,899 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:47:05,226 [INFO] Process completed!
+2024-09-05 12:48:57,509 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:48:57,509 [INFO] Reading the new app JSON...
+2024-09-05 12:48:57,509 [INFO] The new app JSON is loaded
+2024-09-05 12:48:57,510 [INFO] Loading existing application JSONs...
+2024-09-05 12:48:57,510 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:48:57,530 [INFO] Use pytorch device_name: mps
+2024-09-05 12:48:57,530 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:48:57,554 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:48:57,713 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:48:58,154 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:48:58,300 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:48:58,441 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:48:58,583 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:48:58,725 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:48:59,322 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:48:59,514 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:48:59,678 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 12:49:04,050 [INFO] Process completed!
+2024-09-05 12:50:41,166 [INFO] Find the best matching app for apps/input.json
+2024-09-05 12:50:41,166 [INFO] Reading the new app JSON...
+2024-09-05 12:50:41,166 [INFO] The new app JSON is loaded
+2024-09-05 12:50:41,166 [INFO] Loading existing application JSONs...
+2024-09-05 12:50:41,167 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 12:50:41,186 [INFO] Use pytorch device_name: mps
+2024-09-05 12:50:41,186 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:50:41,228 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:50:41,397 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:50:41,871 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:50:42,297 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:50:42,998 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:50:43,305 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:50:43,452 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:50:44,006 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:50:44,196 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:50:44,360 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 12:50:48,836 [INFO] Process completed!
+2024-09-05 12:55:20,338 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:55:20,339 [INFO] Reading the new app JSON...
+2024-09-05 12:55:20,339 [INFO] The new app JSON is loaded
+2024-09-05 12:55:20,339 [INFO] Loading existing application JSONs...
+2024-09-05 12:55:20,339 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:55:20,360 [INFO] Use pytorch device_name: mps
+2024-09-05 12:55:20,360 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:55:20,384 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:55:20,541 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:55:20,682 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:55:21,157 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:55:21,549 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:55:21,996 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:55:22,138 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:55:22,447 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:55:22,634 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 12:55:22,813 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:55:25,507 [INFO] Process completed!
+2024-09-05 12:56:16,321 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:56:16,321 [INFO] Reading the new app JSON...
+2024-09-05 12:56:16,321 [INFO] The new app JSON is loaded
+2024-09-05 12:56:16,321 [INFO] Loading existing application JSONs...
+2024-09-05 12:56:16,321 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:56:16,341 [INFO] Use pytorch device_name: mps
+2024-09-05 12:56:16,341 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:56:16,345 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:56:16,747 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:56:16,893 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:56:17,375 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:56:17,518 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:56:17,663 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:56:17,812 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:56:18,414 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:56:18,602 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:56:18,768 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:56:21,340 [INFO] Process completed!
+2024-09-05 12:57:25,932 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:57:25,932 [INFO] Reading the new app JSON...
+2024-09-05 12:57:25,932 [INFO] The new app JSON is loaded
+2024-09-05 12:57:25,932 [INFO] Loading existing application JSONs...
+2024-09-05 12:57:25,932 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:57:25,952 [INFO] Use pytorch device_name: mps
+2024-09-05 12:57:25,952 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:57:25,986 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:57:26,149 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:57:26,598 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:57:26,744 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:57:26,889 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:57:27,030 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:57:27,199 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:57:27,513 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:57:27,698 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:57:27,864 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:57:30,430 [INFO] Process completed!
+2024-09-05 12:58:14,957 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:58:14,957 [INFO] Reading the new app JSON...
+2024-09-05 12:58:14,958 [INFO] The new app JSON is loaded
+2024-09-05 12:58:14,958 [INFO] Loading existing application JSONs...
+2024-09-05 12:58:14,958 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:58:14,978 [INFO] Use pytorch device_name: mps
+2024-09-05 12:58:14,978 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:58:14,982 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:58:15,451 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:58:15,849 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:58:16,262 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:58:16,405 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:58:16,576 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:58:16,740 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:58:17,125 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:58:17,325 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:58:17,519 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:58:20,075 [INFO] Process completed!
+2024-09-05 12:58:31,213 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:58:31,213 [INFO] Reading the new app JSON...
+2024-09-05 12:58:31,213 [INFO] The new app JSON is loaded
+2024-09-05 12:58:31,213 [INFO] Loading existing application JSONs...
+2024-09-05 12:58:31,214 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:58:31,234 [INFO] Use pytorch device_name: mps
+2024-09-05 12:58:31,234 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:58:31,239 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:58:31,727 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:58:32,136 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:58:32,647 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:58:32,790 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:58:32,937 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:58:33,085 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:58:33,672 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:58:33,860 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 12:58:34,028 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:58:36,587 [INFO] Process completed!
+2024-09-05 12:59:00,163 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:59:00,163 [INFO] Reading the new app JSON...
+2024-09-05 12:59:00,163 [INFO] The new app JSON is loaded
+2024-09-05 12:59:00,164 [INFO] Loading existing application JSONs...
+2024-09-05 12:59:00,164 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:59:00,184 [INFO] Use pytorch device_name: mps
+2024-09-05 12:59:00,184 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:59:00,210 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:59:00,704 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:59:00,859 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:59:01,319 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:59:01,465 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:59:01,945 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:59:02,087 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:59:02,413 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:59:02,959 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:59:03,168 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 12:59:05,727 [INFO] Process completed!
+2024-09-05 12:59:33,690 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 12:59:33,690 [INFO] Reading the new app JSON...
+2024-09-05 12:59:33,690 [INFO] The new app JSON is loaded
+2024-09-05 12:59:33,690 [INFO] Loading existing application JSONs...
+2024-09-05 12:59:33,691 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 12:59:33,710 [INFO] Use pytorch device_name: mps
+2024-09-05 12:59:33,710 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 12:59:33,715 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 12:59:34,189 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:59:34,336 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 12:59:34,480 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 12:59:34,627 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 12:59:34,803 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 12:59:34,951 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 12:59:35,267 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 12:59:35,467 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 12:59:35,642 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 12:59:38,592 [INFO] Process completed!
+2024-09-05 13:00:04,410 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:00:04,410 [INFO] Reading the new app JSON...
+2024-09-05 13:00:04,410 [INFO] The new app JSON is loaded
+2024-09-05 13:00:04,411 [INFO] Loading existing application JSONs...
+2024-09-05 13:00:04,411 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:00:04,431 [INFO] Use pytorch device_name: mps
+2024-09-05 13:00:04,431 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:00:04,436 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:00:04,625 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:00:04,790 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:00:04,940 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:00:05,084 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:00:05,228 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:00:05,374 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:00:05,687 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:00:05,880 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:00:06,041 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:00:08,712 [INFO] Process completed!
+2024-09-05 13:00:50,721 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:00:50,721 [INFO] Reading the new app JSON...
+2024-09-05 13:00:50,721 [INFO] The new app JSON is loaded
+2024-09-05 13:00:50,721 [INFO] Loading existing application JSONs...
+2024-09-05 13:00:50,722 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:00:50,741 [INFO] Use pytorch device_name: mps
+2024-09-05 13:00:50,742 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:00:50,784 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:00:50,943 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:00:51,084 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:00:51,230 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:00:51,370 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:00:51,521 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:00:51,662 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:00:51,990 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:00:52,183 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 13:00:52,354 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 13:01:50,450 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:01:50,450 [INFO] Reading the new app JSON...
+2024-09-05 13:01:50,451 [INFO] The new app JSON is loaded
+2024-09-05 13:01:50,451 [INFO] Loading existing application JSONs...
+2024-09-05 13:01:50,451 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:01:50,472 [INFO] Use pytorch device_name: mps
+2024-09-05 13:01:50,472 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:01:50,477 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:01:50,996 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:01:51,140 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:01:51,611 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:01:52,020 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:01:52,166 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:01:52,321 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:01:52,942 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:01:53,131 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:01:53,295 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:01:55,980 [INFO] Process completed!
+2024-09-05 13:02:15,244 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:02:15,244 [INFO] Reading the new app JSON...
+2024-09-05 13:02:15,244 [INFO] The new app JSON is loaded
+2024-09-05 13:02:15,244 [INFO] Loading existing application JSONs...
+2024-09-05 13:02:15,245 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:02:15,264 [INFO] Use pytorch device_name: mps
+2024-09-05 13:02:15,265 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:02:15,316 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:02:15,777 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:02:15,925 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:02:16,067 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:02:16,494 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:02:16,905 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:02:17,047 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:02:17,358 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:02:17,546 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:02:18,031 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5979
+2024-09-05 13:02:20,673 [INFO] Process completed!
+2024-09-05 13:07:49,684 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:07:49,684 [INFO] Reading the new app JSON...
+2024-09-05 13:07:49,684 [INFO] The new app JSON is loaded
+2024-09-05 13:07:49,684 [INFO] Loading existing application JSONs...
+2024-09-05 13:07:49,684 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:07:49,705 [INFO] Use pytorch device_name: mps
+2024-09-05 13:07:49,705 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:07:49,721 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:07:50,219 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:07:50,361 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:07:50,506 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:07:51,143 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:07:51,533 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:07:51,958 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:07:52,266 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:07:52,460 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 13:07:52,990 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:07:55,622 [INFO] Process completed!
+2024-09-05 13:09:00,452 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:09:00,453 [INFO] Reading the new app JSON...
+2024-09-05 13:09:00,453 [INFO] The new app JSON is loaded
+2024-09-05 13:09:00,453 [INFO] Loading existing application JSONs...
+2024-09-05 13:09:00,453 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:09:00,473 [INFO] Use pytorch device_name: mps
+2024-09-05 13:09:00,473 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:09:00,478 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:09:00,643 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:09:01,078 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:09:01,487 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:09:01,897 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:09:02,038 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:09:02,184 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:09:02,493 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:09:02,689 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:09:03,127 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:09:05,768 [INFO] Process completed!
+2024-09-05 13:13:24,525 [INFO] Find the best matching app for apps/t1.json
+2024-09-05 13:13:24,525 [INFO] Reading the new app JSON...
+2024-09-05 13:13:24,525 [INFO] The new app JSON is loaded
+2024-09-05 13:13:24,525 [INFO] Loading existing application JSONs...
+2024-09-05 13:13:24,525 [INFO] Existing application JSONs are loaded! Number of applications is 1
+2024-09-05 13:13:24,545 [INFO] Use pytorch device_name: mps
+2024-09-05 13:13:24,545 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:13:24,564 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:13:24,717 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:13:24,860 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:13:25,037 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:13:25,476 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:13:25,885 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:13:26,028 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:13:26,372 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:13:26,556 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:13:26,722 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:13:29,387 [INFO] Process completed!
+2024-09-05 13:13:59,497 [INFO] Find the best matching app for apps/input.json
+2024-09-05 13:13:59,497 [INFO] Reading the new app JSON...
+2024-09-05 13:13:59,498 [INFO] The new app JSON is loaded
+2024-09-05 13:13:59,498 [INFO] Loading existing application JSONs...
+2024-09-05 13:13:59,498 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 13:13:59,517 [INFO] Use pytorch device_name: mps
+2024-09-05 13:13:59,518 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:13:59,540 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:13:59,947 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:14:00,100 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:14:00,248 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:14:00,701 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:14:01,111 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:14:01,418 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:14:02,032 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:14:02,213 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5981
+2024-09-05 13:14:02,649 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:14:07,017 [INFO] Process completed!
+2024-09-05 13:29:44,528 [INFO] Find the best matching app for apps/input.json
+2024-09-05 13:29:44,528 [INFO] Reading the new app JSON...
+2024-09-05 13:29:44,529 [INFO] The new app JSON is loaded
+2024-09-05 13:29:44,529 [INFO] Loading existing application JSONs...
+2024-09-05 13:29:44,529 [INFO] Existing application JSONs are loaded! Number of applications is 2
+2024-09-05 13:29:44,551 [INFO] Use pytorch device_name: mps
+2024-09-05 13:29:44,551 [INFO] Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-09-05 13:29:44,603 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2024-09-05 13:29:45,064 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:29:45,207 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-09-05 13:29:45,598 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/README.md HTTP/11" 200 0
+2024-09-05 13:29:45,741 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/modules.json HTTP/11" 200 0
+2024-09-05 13:29:45,886 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-09-05 13:29:46,278 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/config.json HTTP/11" 200 0
+2024-09-05 13:29:46,586 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-mpnet-base-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-05 13:29:46,772 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2/revision/main HTTP/11" 200 5979
+2024-09-05 13:29:46,940 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-mpnet-base-v2 HTTP/11" 200 5981
+2024-09-05 13:29:51,294 [INFO] Best matching app with cosine similarity score = 0.3824 --> AppID1 (CRM App)
+2024-09-05 13:29:51,294 [INFO] Process completed!
