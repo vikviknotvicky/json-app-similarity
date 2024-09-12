@@ -31,7 +31,7 @@ def find_best_match(input_json, apps_json_path=None) -> str:
 
     apps_search_values = pd.DataFrame.from_dict(current_apps_json).T.reset_index()
 
-    model = SentenceTransformer("all-mpnet-base-v2")
+    model = SentenceTransformer(config['embeddings']['model'])
     new_app_embeddings = preprocess_app_json(model, new_json_app)[0]
     current_apps_embeddings = preprocess_app_json(model, current_apps_json)
 
